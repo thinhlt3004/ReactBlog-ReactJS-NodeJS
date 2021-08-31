@@ -1,0 +1,74 @@
+.postSk{
+    width: 355px;
+    margin: 0 25px 40px 25px;
+    animation: skeleton 1s ease infinite alternate;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+@keyframes skeleton {
+    to {
+      opacity: 0.5;
+    }
+}
+
+.postSkImg {
+    background-color: rgb(95, 94, 94);
+    width: 90%;
+    align-self: center;
+    height: 230px;
+    margin-top: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+.postSkInfo{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.postCastSk{
+    background-color: rgb(95, 94, 94);
+    width: 50%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.postTitleSk{
+    margin-top: 10px;
+    background-color: rgb(95, 94, 94);
+    width: 60%;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.postDateSk{
+    margin-top: 5px;
+    height: 10px;
+    background-color: rgb(95, 94, 94);
+    width: 40%;
+    border-radius: 10px;
+}
+
+.postDescSk{
+    margin-top: 5px;
+    height: 100px;
+    width: 90%;
+    background-color: rgb(95, 94, 94);
+    margin-left: 0;
+    margin-bottom: 5px;
+    border-radius: 0px 0px 10px 10px;
+}
+.ball{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    animation: ball 1s ease infinite alternate;
+    background-color: rgb(95, 94, 94);
+}
+@keyframes ball {
+    to {
+        opacity: 0.5;
+    }
+}

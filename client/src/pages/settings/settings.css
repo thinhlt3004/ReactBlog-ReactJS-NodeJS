@@ -1,0 +1,90 @@
+.settings{
+    display: flex;
+}
+.settingsWrapper{
+    flex: 9;
+    padding: 20px;
+}
+.settingsTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settingsUpdateTitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: lightcoral;
+}
+
+.settingsDeleteTitle{
+    color: red;
+    font-size: 15px;
+    cursor: pointer;
+}
+.settingsForm{
+    display: flex;
+    flex-direction: column;
+}
+.settingsPP{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.settingsPP > img{
+    width: 200px;
+    height: 200px;
+    border-radius:20px;
+    object-fit: cover;
+}
+
+.settingsIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+    color: white;
+    background-color: lightcoral; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.settingsForm > label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.settingsForm > input{
+    color: gray;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+}
+.settingsForm > input:focus{
+    outline: none;
+    border-bottom: 1px solid lightgray;
+}
+.settingsSubmit{
+    width: 200px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    background-color: teal;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.percentSettings{
+    align-self: center;
+    margin-top: 15px;
+    color: red !important;
+    font-family: 'Josefin Sans', sans-serif;
+}

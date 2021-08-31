@@ -1,0 +1,69 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+    url("https://img.freepik.com/free-vector/white-minimal-background_1393-354.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* linear-gradient(rgba(255,255,255, 0.5), rgba(255,255,255,0.5)) */
+    font-family: 'Josefin Sans', sans-serif;
+}
+.registerTitle{
+    font-size: 50px;
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm > label{
+    margin: 10px 0;
+}
+
+.registerForm > input{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+
+}
+.registerForm > input:focus{
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+.registerForm > input::placeholder{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.registerForm > input[type="text"], input[type="email"]{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    font-size: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}

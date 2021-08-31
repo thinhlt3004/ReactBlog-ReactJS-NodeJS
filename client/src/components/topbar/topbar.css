@@ -1,0 +1,148 @@
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position:sticky;
+    top:0;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 999;
+    
+}
+.topLeft, .topRight{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topCenter{
+    flex:6;
+}
+.topICon{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+}
+.topImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.topList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.topListItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.topSearchIcon{
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.links{
+    text-decoration: none;
+    color: inherit;
+}
+
+.titleTopBarCenter{
+    font-size: 40px;
+    color: #666;
+}
+.searchDivTopBar{
+    width: 200px;
+}
+.searchInputTopBar{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    height: 30px;
+    margin-left: 10px;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    animation: blink 1s ease-out;
+    text-align: center;
+}
+@keyframes blink{
+    0%{
+        width: 0px;
+    }
+    50%{
+        width: 50%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.searchInputTopBar.off{
+    animation: close 1s ease-out;
+    width: 0px;
+}
+@keyframes close{
+    0%{
+        width: 100%;
+    }
+    50%{
+        width: 50%;
+    }
+    100%{
+        width: 0px;
+    }
+}
+.searchInputTopBar:focus{
+    outline: none;
+}
+
+.searchBarDataBlock{
+    position:fixed;
+    top: 51px;
+    width: 230px;
+    right: 50px;   
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.listData{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+}
+.listData:hover{
+    background-color: #f2f3f5;
+    border-radius: 5px;
+}
+.contentData{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+}
+.imgListData{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit:cover;
+}
+.listDataTitle{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}

@@ -1,0 +1,72 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+    url("https://images.unsplash.com/photo-1527176930608-09cb256ab504?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwyMjI4OTkyfHxlbnwwfHx8fA%3D%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* linear-gradient(rgba(255,255,255, 0.5), rgba(255,255,255,0.5)) */
+    font-family: 'Josefin Sans', sans-serif;
+}
+.loginTitle{
+    font-size: 50px;
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginForm > label{
+    margin: 10px 0;
+}
+
+.loginForm > input{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+
+}
+.loginForm > input:focus{
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+.loginForm > input::placeholder{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.loginForm > input[type="text"], input[type="email"], input[type="password"]{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.loginRegister:disabled{
+    cursor: not-allowed;
+    background-color: coral;
+}
+.loginRegister{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    font-size: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
