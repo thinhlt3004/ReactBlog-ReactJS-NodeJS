@@ -53,12 +53,6 @@ export default function Topbar() {
           <Link to="/" className="links">
             <li className="topListItem">HOME</li>
           </Link>
-          <Link to="/" className="links">
-            <li className="topListItem">ABOUT</li>
-          </Link>
-          <Link to="/" className="links">
-            <li className="topListItem">CONTACT</li>
-          </Link>
           <Link to="/write" className="links">
             <li className="topListItem">WRITE</li>
           </Link>
